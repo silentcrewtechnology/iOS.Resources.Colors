@@ -195,4 +195,8 @@ public extension UIColor {
     static let borderMainOn = UIColor(red: 1.000, green: 1.000, blue: 1.000, alpha: 1.000)
     
     static let borderGhostDisabled = UIColor(red: 1.000, green: 1.000, blue: 1.000, alpha: 0.400)
+    
+    // MARK: - Custom
+    
+    static let gosuslugiButtonTitle = UIColor(red: 0.051, green: 0.298, blue: 0.827, alpha: 1.000)
 }
