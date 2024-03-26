@@ -199,4 +199,6 @@ public extension UIColor {
     // MARK: - Custom
     
     static let gosuslugiButtonTitle = UIColor(red: 0.051, green: 0.298, blue: 0.827, alpha: 1.000)
+    
+    static let snackBarShadow = UIColor(red: 0.000, green: 0.000, blue: 0.000, alpha: 0.060)
 }
