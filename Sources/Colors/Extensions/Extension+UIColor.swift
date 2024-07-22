@@ -1,5 +1,6 @@
 import UIKit
 
+@available(*, deprecated, message: "Старая палитра цветов, переходим на новую ")
 public extension UIColor {
     
     // MARK: - Content
