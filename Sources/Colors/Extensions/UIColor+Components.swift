@@ -150,6 +150,7 @@ public extension UIColor {
                         public static let `default` = UIColor.Semantic.LightTheme.Background.Accent.default
                         public static let pressed = UIColor.Semantic.LightTheme.Background.Accent.pressed
                         public static let disabled = UIColor.Semantic.LightTheme.Background.Base.disabled
+                        public static let loading = UIColor.Semantic.LightTheme.Background.Accent.default
                     }
                     
                     public struct Label {
@@ -162,6 +163,7 @@ public extension UIColor {
                         public static let `default` = UIColor.Semantic.LightTheme.Content.Base.accentOn
                         public static let pressed = UIColor.Semantic.LightTheme.Content.Base.accentOn
                         public static let disabled = UIColor.Semantic.LightTheme.Content.Base.disabled
+                        public static let loading = UIColor.Semantic.LightTheme.Content.Base.accentOn
                     }
                 }
                 
@@ -170,6 +172,7 @@ public extension UIColor {
                         public static let `default` = UIColor.Semantic.LightTheme.Background.Base.secondary
                         public static let pressed = UIColor.Semantic.LightTheme.Background.Base.secondaryPressed
                         public static let disabled = UIColor.Semantic.LightTheme.Background.Base.disabled
+                        public static let loading = UIColor.Semantic.LightTheme.Background.Base.secondary
                     }
                     
                     public struct Label {
@@ -182,6 +185,7 @@ public extension UIColor {
                         public static let `default` = UIColor.Semantic.LightTheme.Content.Base.primary
                         public static let pressed = UIColor.Semantic.LightTheme.Content.Base.primary
                         public static let disabled = UIColor.Semantic.LightTheme.Content.Base.disabled
+                        public static let loading = UIColor.Semantic.LightTheme.Content.Base.primary
                     }
                 }
                 
@@ -190,6 +194,7 @@ public extension UIColor {
                         public static let `default` = UIColor.Semantic.LightTheme.Background.Base.primary
                         public static let pressed = UIColor.Semantic.LightTheme.Background.Accent.lightPressed
                         public static let disabled = UIColor.Semantic.LightTheme.Background.Base.disabled
+                        public static let loading = UIColor.Semantic.LightTheme.Background.Base.primary
                     }
                     
                     public struct Label {
@@ -202,6 +207,7 @@ public extension UIColor {
                         public static let `default` = UIColor.Semantic.LightTheme.Content.Accent.default
                         public static let pressed = UIColor.Semantic.LightTheme.Content.Accent.default
                         public static let disabled = UIColor.Semantic.LightTheme.Content.Base.disabled
+                        public static let loading = UIColor.Semantic.LightTheme.Content.Accent.default
                     }
                 }
                 
@@ -216,6 +222,7 @@ public extension UIColor {
                         public static let `default` = UIColor.Semantic.LightTheme.Content.Accent.default
                         public static let pressed = UIColor.Semantic.LightTheme.Content.Accent.pressed
                         public static let disabled = UIColor.Semantic.LightTheme.Content.Base.disabled
+                        public static let loading = UIColor.Semantic.LightTheme.Content.Accent.default
                     }
                 }
             }
@@ -226,6 +233,7 @@ public extension UIColor {
                         public static let `default` = UIColor.Semantic.LightTheme.Background.Base.accentOn
                         public static let pressed = UIColor.Semantic.LightTheme.Background.Base.mainPressed
                         public static let disabled = UIColor.Semantic.LightTheme.Background.Base.disabled
+                        public static let loading = UIColor.Semantic.LightTheme.Background.Base.accentOn
                     }
                     
                     public struct Label {
@@ -238,6 +246,7 @@ public extension UIColor {
                         public static let `default` = UIColor.Semantic.LightTheme.Static.black
                         public static let pressed = UIColor.Semantic.LightTheme.Content.Base.primary
                         public static let disabled = UIColor.Semantic.LightTheme.Content.Base.disabled
+                        public static let loading = UIColor.Semantic.LightTheme.Static.black
                     }
                 }
                 
@@ -246,6 +255,7 @@ public extension UIColor {
                         public static let `default` = UIColor.Semantic.LightTheme.Background.Base.soft
                         public static let pressed = UIColor.Semantic.LightTheme.Background.Base.softPressed
                         public static let disabled = UIColor.Semantic.LightTheme.Background.Base.disabled
+                        public static let loading = UIColor.Semantic.LightTheme.Background.Base.soft
                     }
                     
                     public struct Label {
@@ -258,6 +268,7 @@ public extension UIColor {
                         public static let `default` = UIColor.Semantic.LightTheme.Content.Base.accentOn
                         public static let pressed = UIColor.Semantic.LightTheme.Content.Base.accentOn
                         public static let disabled = UIColor.Semantic.LightTheme.Content.Base.disabled
+                        public static let loading = UIColor.Semantic.LightTheme.Content.Base.accentOn
                     }
                 }
                 
@@ -266,6 +277,7 @@ public extension UIColor {
                         public static let `default` = UIColor.Semantic.LightTheme.Background.None.value
                         public static let pressed = UIColor.Semantic.LightTheme.Background.Base.softPressed
                         public static let disabled = UIColor.Semantic.LightTheme.Background.None.value
+                        public static let loading = UIColor.Semantic.LightTheme.Background.None.value
                     }
                     
                     public struct Label {
@@ -278,6 +290,7 @@ public extension UIColor {
                         public static let `default` = UIColor.Semantic.LightTheme.Content.Base.accentOn
                         public static let pressed = UIColor.Semantic.LightTheme.Content.Base.accentOn
                         public static let disabled = UIColor.Semantic.LightTheme.Content.Base.disabled
+                        public static let loading = UIColor.Semantic.LightTheme.Content.Base.accentOn
                     }
                 }
                 
@@ -292,6 +305,7 @@ public extension UIColor {
                         public static let `default` = UIColor.Semantic.LightTheme.Content.Base.accentOn
                         public static let pressed = UIColor.Semantic.LightTheme.Content.Base.accentOn
                         public static let disabled = UIColor.Semantic.LightTheme.Content.Base.disabled
+                        public static let loading = UIColor.Semantic.LightTheme.Content.Base.accentOn
                     }
                 }
             }
