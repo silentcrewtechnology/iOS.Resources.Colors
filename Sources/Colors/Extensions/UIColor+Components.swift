@@ -325,7 +325,7 @@ public extension UIColor {
                     }
                 }
                 
-                public struct Akbars {
+                public struct Abb {
                     public struct Background {
                         public static let `default` = UIColor.Semantic.LightTheme.Background.Accent.default
                         public static let pressed = UIColor.Semantic.LightTheme.Background.Accent.pressed
@@ -356,7 +356,7 @@ public extension UIColor {
                     }
                 }
                 
-                public struct Akbars {
+                public struct Abb {
                     public struct Background {
                         public static let `default` = UIColor.Semantic.LightTheme.Background.Base.accentOn
                         public static let pressed = UIColor.Semantic.LightTheme.Background.Base.mainPressed
