@@ -565,7 +565,10 @@ public extension UIColor {
         
         public struct Label {
             public struct Color {
+                @available(*, deprecated, message: "Use default color")
                 public static let color = UIColor.Semantic.LightTheme.Content.Base.secondary
+                public static let `default` = UIColor.Semantic.LightTheme.Content.Base.secondary
+                public static let disabled = UIColor.Semantic.LightTheme.Content.Base.disabled
             }
         }
         
@@ -1107,6 +1110,14 @@ public extension UIColor {
             public struct ChevronIcon {
                 public struct Color {
                     public static let value = UIColor.Semantic.LightTheme.Content.Base.secondary
+                }
+            }
+            public struct StatusCard {
+                public struct Color {
+                    public static let blocked = UIColor.Semantic.LightTheme.Content.Error.default
+                    public static let reRelease = UIColor.Semantic.LightTheme.Content.Warning.default
+                    public static let expires = UIColor.Semantic.LightTheme.Content.Error.default
+                    public static let readiness = UIColor.Semantic.LightTheme.Content.Accent.default
                 }
             }
         }
