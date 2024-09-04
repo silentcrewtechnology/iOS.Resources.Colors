@@ -565,6 +565,8 @@ public extension UIColor {
         
         public struct Label {
             public struct Color {
+                @available(*, deprecated, message: "Use default color")
+                public static let color = UIColor.Semantic.LightTheme.Content.Base.secondary
                 public static let `default` = UIColor.Semantic.LightTheme.Content.Base.secondary
                 public static let disabled = UIColor.Semantic.LightTheme.Content.Base.disabled
             }
