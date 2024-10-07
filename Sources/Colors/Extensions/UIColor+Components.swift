@@ -563,6 +563,26 @@ public extension UIColor {
             }
         }
         
+        public struct Loader {
+            public struct Accent {
+                public struct Background {
+                    public static let color = UIColor.Semantic.LightTheme.Content.Accent.default
+                }
+            }
+            
+            public struct Main {
+                public struct Background {
+                    public static let color = UIColor.Semantic.LightTheme.Content.Base.accentOn
+                }
+            }
+            
+            public struct Disabled {
+                public struct Background {
+                    public static let color = UIColor.Semantic.LightTheme.Content.Base.disabled
+                }
+            }
+        }
+        
         public struct Label {
             public struct Color {
                 @available(*, deprecated, message: "Use default color")
