@@ -1,54 +1,79 @@
 import UIKit
 
-// MARK: Components
+// MARK: - Components
+
 public extension UIColor {
     struct Components {
         public struct Badge {
             public struct Neutral {
                 public struct Background {
-                    public static let color = UIColor.Semantic.LightTheme.Background.Base.secondary
+                    public struct Color {
+                        public static let color = UIColor.Semantic.LightTheme.Background.Base.secondary
+                    }
                 }
                 public struct Label {
-                    public static let color = UIColor.Semantic.LightTheme.Content.Base.primary
+                    public struct Color {
+                        public static let color = UIColor.Semantic.LightTheme.Content.Base.primary
+                    }
                 }
                 public struct Icon {
-                    public static let color = UIColor.Semantic.LightTheme.Content.Base.primary
+                    public struct Color {
+                        public static let color = UIColor.Semantic.LightTheme.Content.Base.primary
+                    }
                 }
             }
             
             public struct Info {
                 public struct Background {
-                    public static let color = UIColor.Semantic.LightTheme.Background.Info.default
+                    public struct Color {
+                        public static let color = UIColor.Semantic.LightTheme.Background.Info.default
+                    }
                 }
                 public struct Label {
-                    public static let color = UIColor.Semantic.LightTheme.Static.white
+                    public struct Color {
+                        public static let color = UIColor.Semantic.LightTheme.Static.white
+                    }
                 }
                 public struct Icon {
-                    public static let color = UIColor.Semantic.LightTheme.Static.white
+                    public struct Color {
+                        public static let color = UIColor.Semantic.LightTheme.Static.white
+                    }
                 }
             }
             
             public struct AccentBrand {
                 public struct Background {
-                    public static let color = UIColor.Semantic.LightTheme.Background.Accent.default
+                    public struct Color {
+                        public static let color = UIColor.Semantic.LightTheme.Background.Accent.default
+                    }
                 }
                 public struct Label {
-                    public static let color = UIColor.Semantic.LightTheme.Content.Base.accentOn
+                    public struct Color {
+                        public static let color = UIColor.Semantic.LightTheme.Content.Base.accentOn
+                    }
                 }
                 public struct Icon {
-                    public static let color = UIColor.Semantic.LightTheme.Content.Base.accentOn
+                    public struct Color {
+                        public static let color = UIColor.Semantic.LightTheme.Content.Base.accentOn
+                    }
                 }
             }
             
             public struct Accent {
                 public struct Background {
-                    public static let color = UIColor.Semantic.LightTheme.Background.Error.default
+                    public struct Color {
+                        public static let color = UIColor.Semantic.LightTheme.Background.Error.default
+                    }
                 }
                 public struct Label {
-                    public static let color = UIColor.Semantic.LightTheme.Static.white
+                    public struct Color {
+                        public static let color = UIColor.Semantic.LightTheme.Static.white
+                    }
                 }
                 public struct Icon {
-                    public static let color = UIColor.Semantic.LightTheme.Static.white
+                    public struct Color {
+                        public static let color = UIColor.Semantic.LightTheme.Static.white
+                    }
                 }
             }
         }
@@ -56,89 +81,117 @@ public extension UIColor {
         public struct Banner {
             public struct Neutral {
                 public struct Background {
-                    public static let color = UIColor.Semantic.LightTheme.Background.Base.primary
+                    public struct Color {
+                        public static let color = UIColor.Semantic.LightTheme.Background.Base.primary
+                    }
                 }
                 
                 public struct Icon {
-                    public static let color = UIColor.Semantic.LightTheme.Content.Base.primary
+                    public struct Color {
+                        public static let color = UIColor.Semantic.LightTheme.Content.Base.primary
+                    }
                 }
                 
                 public struct Title {
-                    public static let color = UIColor.Semantic.LightTheme.Content.Base.primary
+                    public struct Color {
+                        public static let color = UIColor.Semantic.LightTheme.Content.Base.primary
+                    }
                 }
                 
                 public struct Subtitle {
-                    public static let color = UIColor.Semantic.LightTheme.Content.Base.primary
+                    public struct Color {
+                        public static let color = UIColor.Semantic.LightTheme.Content.Base.primary
+                    }
                 }
                 
                 public struct ButtonLabel {
-                    public static let color = UIColor.Semantic.LightTheme.Content.Accent.default
+                    public struct Color {
+                        public static let color = UIColor.Semantic.LightTheme.Content.Accent.default
+                    }
                 }
             }
             
             public struct Warning {
                 public struct Background {
-                    public static let color = UIColor.Semantic.LightTheme.Background.Warning.light
+                    public struct Color {
+                        public static let color = UIColor.Semantic.LightTheme.Background.Warning.light
+                    }
                 }
-                
                 public struct Icon {
-                    public static let color = UIColor.Semantic.LightTheme.Content.Warning.lightOn
+                    public struct Color {
+                        public static let color = UIColor.Semantic.LightTheme.Content.Warning.lightOn
+                    }
                 }
-                
                 public struct Title {
-                    public static let color = UIColor.Semantic.LightTheme.Content.Base.primary
+                    public struct Color {
+                        public static let color = UIColor.Semantic.LightTheme.Content.Base.primary
+                    }
                 }
-                
                 public struct Subtitle {
-                    public static let color = UIColor.Semantic.LightTheme.Content.Base.primary
+                    public struct Color {
+                        public static let color = UIColor.Semantic.LightTheme.Content.Base.primary
+                    }
                 }
-                
                 public struct ButtonLabel {
-                    public static let color = UIColor.Semantic.LightTheme.Content.Warning.lightOn
+                    public struct Color {
+                        public static let color = UIColor.Semantic.LightTheme.Content.Warning.lightOn
+                    }
                 }
             }
             
             public struct Success {
                 public struct Background {
-                    public static let color = UIColor.Semantic.LightTheme.Background.Success.light
+                    public struct Color {
+                        public static let color = UIColor.Semantic.LightTheme.Background.Success.light
+                    }
                 }
-                
                 public struct Icon {
-                    public static let color = UIColor.Semantic.LightTheme.Content.Success.lightOn
+                    public struct Color {
+                        public static let color = UIColor.Semantic.LightTheme.Content.Success.lightOn
+                    }
                 }
-                
                 public struct Title {
-                    public static let color = UIColor.Semantic.LightTheme.Content.Base.primary
+                    public struct Color {
+                        public static let color = UIColor.Semantic.LightTheme.Content.Base.primary
+                    }
                 }
-                
                 public struct Subtitle {
-                    public static let color = UIColor.Semantic.LightTheme.Content.Base.primary
+                    public struct Color {
+                        public static let color = UIColor.Semantic.LightTheme.Content.Base.primary
+                    }
                 }
-                
                 public struct ButtonLabel {
-                    public static let color = UIColor.Semantic.LightTheme.Content.Success.lightOn
+                    public struct Color {
+                        public static let color = UIColor.Semantic.LightTheme.Content.Success.lightOn
+                    }
                 }
             }
             
             public struct Error {
                 public struct Background {
-                    public static let color = UIColor.Semantic.LightTheme.Background.Error.light
+                    public struct Color {
+                        public static let color = UIColor.Semantic.LightTheme.Background.Error.light
+                    }
                 }
-                
                 public struct Icon {
-                    public static let color = UIColor.Semantic.LightTheme.Content.Error.lightOn
+                    public struct Color {
+                        public static let color = UIColor.Semantic.LightTheme.Content.Error.lightOn
+                    }
                 }
-                
                 public struct Title {
-                    public static let color = UIColor.Semantic.LightTheme.Content.Base.primary
+                    public struct Color {
+                        public static let color = UIColor.Semantic.LightTheme.Content.Base.primary
+                    }
                 }
-                
                 public struct Subtitle {
-                    public static let color = UIColor.Semantic.LightTheme.Content.Base.primary
+                    public struct Color {
+                        public static let color = UIColor.Semantic.LightTheme.Content.Base.primary
+                    }
                 }
-                
                 public struct ButtonLabel {
-                    public static let color = UIColor.Semantic.LightTheme.Content.Error.lightOn
+                    public struct Color {
+                        public static let color = UIColor.Semantic.LightTheme.Content.Error.lightOn
+                    }
                 }
             }
         }
@@ -147,82 +200,117 @@ public extension UIColor {
             public struct Accent {
                 public struct Primary {
                     public struct Background {
-                        public static let `default` = UIColor.Semantic.LightTheme.Background.Accent.default
-                        public static let pressed = UIColor.Semantic.LightTheme.Background.Accent.pressed
-                        public static let disabled = UIColor.Semantic.LightTheme.Background.Base.disabled
-                        public static let loading = UIColor.Semantic.LightTheme.Background.Accent.default
+                        public struct Color {
+                            public static let `default` = UIColor.Semantic.LightTheme.Background.Accent.default
+                            public static let pressed = UIColor.Semantic.LightTheme.Background.Accent.pressed
+                            public static let disabled = UIColor.Semantic.LightTheme.Background.Base.disabled
+                            public static let loading = UIColor.Semantic.LightTheme.Background.Accent.default
+                        }
                     }
-                    
                     public struct Label {
-                        public static let `default` = UIColor.Semantic.LightTheme.Content.Base.accentOn
-                        public static let pressed = UIColor.Semantic.LightTheme.Content.Base.accentOn
-                        public static let disabled = UIColor.Semantic.LightTheme.Content.Base.disabled
+                        public struct Color {
+                            public static let `default` = UIColor.Semantic.LightTheme.Content.Base.accentOn
+                            public static let pressed = UIColor.Semantic.LightTheme.Content.Base.accentOn
+                            public static let disabled = UIColor.Semantic.LightTheme.Content.Base.disabled
+                        }
                     }
-                    
+                    public struct Loader {
+                        public struct Color {
+                            public static let loading = UIColor.Semantic.LightTheme.Content.Base.accentOn
+                        }
+                    }
                     public struct Icon {
-                        public static let `default` = UIColor.Semantic.LightTheme.Content.Base.accentOn
-                        public static let pressed = UIColor.Semantic.LightTheme.Content.Base.accentOn
-                        public static let disabled = UIColor.Semantic.LightTheme.Content.Base.disabled
-                        public static let loading = UIColor.Semantic.LightTheme.Content.Base.accentOn
+                        public struct Color {
+                            public static let `default` = UIColor.Semantic.LightTheme.Content.Base.accentOn
+                            public static let pressed = UIColor.Semantic.LightTheme.Content.Base.accentOn
+                            public static let disabled = UIColor.Semantic.LightTheme.Content.Base.disabled
+                            public static let loading = UIColor.Semantic.LightTheme.Content.Base.accentOn
+                        }
                     }
                 }
                 
                 public struct Secondary {
                     public struct Background {
-                        public static let `default` = UIColor.Semantic.LightTheme.Background.Base.secondary
-                        public static let pressed = UIColor.Semantic.LightTheme.Background.Base.secondaryPressed
-                        public static let disabled = UIColor.Semantic.LightTheme.Background.Base.disabled
-                        public static let loading = UIColor.Semantic.LightTheme.Background.Base.secondary
+                        public struct Color {
+                            public static let `default` = UIColor.Semantic.LightTheme.Background.Base.secondary
+                            public static let pressed = UIColor.Semantic.LightTheme.Background.Base.secondaryPressed
+                            public static let disabled = UIColor.Semantic.LightTheme.Background.Base.disabled
+                            public static let loading = UIColor.Semantic.LightTheme.Background.Base.secondary
+                        }
                     }
-                    
                     public struct Label {
-                        public static let `default` = UIColor.Semantic.LightTheme.Content.Base.primary
-                        public static let pressed = UIColor.Semantic.LightTheme.Content.Base.primary
-                        public static let disabled = UIColor.Semantic.LightTheme.Content.Base.disabled
+                        public struct Color {
+                            public static let `default` = UIColor.Semantic.LightTheme.Content.Base.primary
+                            public static let pressed = UIColor.Semantic.LightTheme.Content.Base.primary
+                            public static let disabled = UIColor.Semantic.LightTheme.Content.Base.disabled
+                        }
                     }
-                    
+                    public struct Loader {
+                        public struct Color {
+                            public static let loading = UIColor.Semantic.LightTheme.Content.Base.primary
+                        }
+                    }
                     public struct Icon {
-                        public static let `default` = UIColor.Semantic.LightTheme.Content.Base.primary
-                        public static let pressed = UIColor.Semantic.LightTheme.Content.Base.primary
-                        public static let disabled = UIColor.Semantic.LightTheme.Content.Base.disabled
-                        public static let loading = UIColor.Semantic.LightTheme.Content.Base.primary
+                        public struct Color {
+                            public static let `default` = UIColor.Semantic.LightTheme.Content.Base.primary
+                            public static let pressed = UIColor.Semantic.LightTheme.Content.Base.primary
+                            public static let disabled = UIColor.Semantic.LightTheme.Content.Base.disabled
+                            public static let loading = UIColor.Semantic.LightTheme.Content.Base.primary
+                        }
                     }
                 }
                 
                 public struct Tertiary {
                     public struct Background {
-                        public static let `default` = UIColor.Semantic.LightTheme.Background.Base.primary
-                        public static let pressed = UIColor.Semantic.LightTheme.Background.Accent.lightPressed
-                        public static let disabled = UIColor.Semantic.LightTheme.Background.Base.disabled
-                        public static let loading = UIColor.Semantic.LightTheme.Background.Base.primary
+                        public struct Color {
+                            public static let `default` = UIColor.Semantic.LightTheme.Background.None.value
+                            public static let pressed = UIColor.Semantic.LightTheme.Background.Accent.lightPressed
+                            public static let disabled = UIColor.Semantic.LightTheme.Background.Base.disabled
+                            public static let loading = UIColor.Semantic.LightTheme.Background.None.value
+                        }
                     }
-                    
                     public struct Label {
-                        public static let `default` = UIColor.Semantic.LightTheme.Content.Accent.default
-                        public static let pressed = UIColor.Semantic.LightTheme.Content.Accent.default
-                        public static let disabled = UIColor.Semantic.LightTheme.Content.Base.disabled
+                        public struct Color {
+                            public static let `default` = UIColor.Semantic.LightTheme.Content.Accent.default
+                            public static let pressed = UIColor.Semantic.LightTheme.Content.Accent.default
+                            public static let disabled = UIColor.Semantic.LightTheme.Content.Base.disabled
+                        }
                     }
-                    
+                    public struct Loader {
+                        public struct Color {
+                            public static let loading = UIColor.Semantic.LightTheme.Content.Accent.default
+                        }
+                    }
                     public struct Icon {
-                        public static let `default` = UIColor.Semantic.LightTheme.Content.Accent.default
-                        public static let pressed = UIColor.Semantic.LightTheme.Content.Accent.default
-                        public static let disabled = UIColor.Semantic.LightTheme.Content.Base.disabled
-                        public static let loading = UIColor.Semantic.LightTheme.Content.Accent.default
+                        public struct Color {
+                            public static let `default` = UIColor.Semantic.LightTheme.Content.Accent.default
+                            public static let pressed = UIColor.Semantic.LightTheme.Content.Accent.default
+                            public static let disabled = UIColor.Semantic.LightTheme.Content.Base.disabled
+                            public static let loading = UIColor.Semantic.LightTheme.Content.Accent.default
+                        }
                     }
                 }
                 
                 public struct Function {
                     public struct Label {
-                        public static let `default` = UIColor.Semantic.LightTheme.Content.Accent.default
-                        public static let pressed = UIColor.Semantic.LightTheme.Content.Accent.pressed
-                        public static let disabled = UIColor.Semantic.LightTheme.Content.Base.disabled
+                        public struct Color {
+                            public static let `default` = UIColor.Semantic.LightTheme.Content.Accent.default
+                            public static let pressed = UIColor.Semantic.LightTheme.Content.Accent.pressed
+                            public static let disabled = UIColor.Semantic.LightTheme.Content.Base.disabled
+                        }
                     }
-                    
+                    public struct Loader {
+                        public struct Color {
+                            public static let loading = UIColor.Semantic.LightTheme.Content.Accent.default
+                        }
+                    }
                     public struct Icon {
-                        public static let `default` = UIColor.Semantic.LightTheme.Content.Accent.default
-                        public static let pressed = UIColor.Semantic.LightTheme.Content.Accent.pressed
-                        public static let disabled = UIColor.Semantic.LightTheme.Content.Base.disabled
-                        public static let loading = UIColor.Semantic.LightTheme.Content.Accent.default
+                        public struct Color {
+                            public static let `default` = UIColor.Semantic.LightTheme.Content.Accent.default
+                            public static let pressed = UIColor.Semantic.LightTheme.Content.Accent.pressed
+                            public static let disabled = UIColor.Semantic.LightTheme.Content.Base.disabled
+                            public static let loading = UIColor.Semantic.LightTheme.Content.Accent.default
+                        }
                     }
                 }
             }
@@ -230,82 +318,117 @@ public extension UIColor {
             public struct Light {
                 public struct Primary {
                     public struct Background {
-                        public static let `default` = UIColor.Semantic.LightTheme.Background.Base.accentOn
-                        public static let pressed = UIColor.Semantic.LightTheme.Background.Base.mainPressed
-                        public static let disabled = UIColor.Semantic.LightTheme.Background.Base.disabled
-                        public static let loading = UIColor.Semantic.LightTheme.Background.Base.accentOn
+                        public struct Color {
+                            public static let `default` = UIColor.Semantic.LightTheme.Background.Base.accentOn
+                            public static let pressed = UIColor.Semantic.LightTheme.Background.Base.mainPressed
+                            public static let disabled = UIColor.Semantic.LightTheme.Background.Base.disabled
+                            public static let loading = UIColor.Semantic.LightTheme.Background.Base.accentOn
+                        }
                     }
-                    
                     public struct Label {
-                        public static let `default` = UIColor.Semantic.LightTheme.Static.black
-                        public static let pressed = UIColor.Semantic.LightTheme.Content.Base.primary
-                        public static let disabled = UIColor.Semantic.LightTheme.Content.Base.disabled
+                        public struct Color {
+                            public static let `default` = UIColor.Semantic.LightTheme.Static.black
+                            public static let pressed = UIColor.Semantic.LightTheme.Content.Base.primary
+                            public static let disabled = UIColor.Semantic.LightTheme.Content.Base.disabled
+                        }
                     }
-                    
+                    public struct Loader {
+                        public struct Color {
+                            public static let loading = UIColor.Semantic.LightTheme.Static.black
+                        }
+                    }
                     public struct Icon {
-                        public static let `default` = UIColor.Semantic.LightTheme.Static.black
-                        public static let pressed = UIColor.Semantic.LightTheme.Content.Base.primary
-                        public static let disabled = UIColor.Semantic.LightTheme.Content.Base.disabled
-                        public static let loading = UIColor.Semantic.LightTheme.Static.black
+                        public struct Color {
+                            public static let `default` = UIColor.Semantic.LightTheme.Static.black
+                            public static let pressed = UIColor.Semantic.LightTheme.Content.Base.primary
+                            public static let disabled = UIColor.Semantic.LightTheme.Content.Base.disabled
+                            public static let loading = UIColor.Semantic.LightTheme.Static.black
+                        }
                     }
                 }
                 
                 public struct Secondary {
                     public struct Background {
-                        public static let `default` = UIColor.Semantic.LightTheme.Background.Base.soft
-                        public static let pressed = UIColor.Semantic.LightTheme.Background.Base.softPressed
-                        public static let disabled = UIColor.Semantic.LightTheme.Background.Base.disabled
-                        public static let loading = UIColor.Semantic.LightTheme.Background.Base.soft
+                        public struct Color {
+                            public static let `default` = UIColor.Semantic.LightTheme.Background.Base.soft
+                            public static let pressed = UIColor.Semantic.LightTheme.Background.Base.softPressed
+                            public static let disabled = UIColor.Semantic.LightTheme.Background.Base.disabled
+                            public static let loading = UIColor.Semantic.LightTheme.Background.Base.soft
+                        }
                     }
-                    
                     public struct Label {
-                        public static let `default` = UIColor.Semantic.LightTheme.Content.Base.accentOn
-                        public static let pressed = UIColor.Semantic.LightTheme.Content.Base.accentOn
-                        public static let disabled = UIColor.Semantic.LightTheme.Content.Base.disabled
+                        public struct Color {
+                            public static let `default` = UIColor.Semantic.LightTheme.Content.Base.accentOn
+                            public static let pressed = UIColor.Semantic.LightTheme.Content.Base.accentOn
+                            public static let disabled = UIColor.Semantic.LightTheme.Content.Base.disabled
+                        }
                     }
-                    
+                    public struct Loader {
+                        public struct Color {
+                            public static let loading = UIColor.Semantic.LightTheme.Content.Base.accentOn
+                        }
+                    }
                     public struct Icon {
-                        public static let `default` = UIColor.Semantic.LightTheme.Content.Base.accentOn
-                        public static let pressed = UIColor.Semantic.LightTheme.Content.Base.accentOn
-                        public static let disabled = UIColor.Semantic.LightTheme.Content.Base.disabled
-                        public static let loading = UIColor.Semantic.LightTheme.Content.Base.accentOn
+                        public struct Color {
+                            public static let `default` = UIColor.Semantic.LightTheme.Content.Base.accentOn
+                            public static let pressed = UIColor.Semantic.LightTheme.Content.Base.accentOn
+                            public static let disabled = UIColor.Semantic.LightTheme.Content.Base.disabled
+                            public static let loading = UIColor.Semantic.LightTheme.Content.Base.accentOn
+                        }
                     }
                 }
                 
                 public struct Tertiary {
                     public struct Background {
-                        public static let `default` = UIColor.Semantic.LightTheme.Background.None.value
-                        public static let pressed = UIColor.Semantic.LightTheme.Background.Base.softPressed
-                        public static let disabled = UIColor.Semantic.LightTheme.Background.None.value
-                        public static let loading = UIColor.Semantic.LightTheme.Background.None.value
+                        public struct Color {
+                            public static let `default` = UIColor.Semantic.LightTheme.Background.None.value
+                            public static let pressed = UIColor.Semantic.LightTheme.Background.Base.softPressed
+                            public static let disabled = UIColor.Semantic.LightTheme.Background.None.value
+                            public static let loading = UIColor.Semantic.LightTheme.Background.None.value
+                        }
                     }
-                    
                     public struct Label {
-                        public static let `default` = UIColor.Semantic.LightTheme.Content.Base.accentOn
-                        public static let pressed = UIColor.Semantic.LightTheme.Content.Base.accentOn
-                        public static let disabled = UIColor.Semantic.LightTheme.Content.Base.disabled
+                        public struct Color {
+                            public static let `default` = UIColor.Semantic.LightTheme.Content.Base.accentOn
+                            public static let pressed = UIColor.Semantic.LightTheme.Content.Base.accentOn
+                            public static let disabled = UIColor.Semantic.LightTheme.Content.Base.disabled
+                        }
                     }
-                    
+                    public struct Loader {
+                        public struct Color {
+                            public static let loading = UIColor.Semantic.LightTheme.Content.Base.accentOn
+                        }
+                    }
                     public struct Icon {
-                        public static let `default` = UIColor.Semantic.LightTheme.Content.Base.accentOn
-                        public static let pressed = UIColor.Semantic.LightTheme.Content.Base.accentOn
-                        public static let disabled = UIColor.Semantic.LightTheme.Content.Base.disabled
-                        public static let loading = UIColor.Semantic.LightTheme.Content.Base.accentOn
+                        public struct Color {
+                            public static let `default` = UIColor.Semantic.LightTheme.Content.Base.accentOn
+                            public static let pressed = UIColor.Semantic.LightTheme.Content.Base.accentOn
+                            public static let disabled = UIColor.Semantic.LightTheme.Content.Base.disabled
+                            public static let loading = UIColor.Semantic.LightTheme.Content.Base.accentOn
+                        }
                     }
                 }
                 
                 public struct Function {
                     public struct Label {
-                        public static let `default` = UIColor.Semantic.LightTheme.Content.Base.accentOn
-                        public static let pressed = UIColor.Semantic.LightTheme.Content.Base.accentOn
-                        public static let disabled = UIColor.Semantic.LightTheme.Content.Base.disabled
+                        public struct Color {
+                            public static let `default` = UIColor.Semantic.LightTheme.Content.Base.accentOn
+                            public static let pressed = UIColor.Semantic.LightTheme.Content.Base.accentOn
+                            public static let disabled = UIColor.Semantic.LightTheme.Content.Base.disabled
+                        }
                     }
-                    
+                    public struct Loader {
+                        public struct Color {
+                            public static let loading = UIColor.Semantic.LightTheme.Content.Base.accentOn
+                        }
+                    }
                     public struct Icon {
-                        public static let `default` = UIColor.Semantic.LightTheme.Content.Base.accentOn
-                        public static let pressed = UIColor.Semantic.LightTheme.Content.Base.accentOn
-                        public static let disabled = UIColor.Semantic.LightTheme.Content.Base.disabled
-                        public static let loading = UIColor.Semantic.LightTheme.Content.Base.accentOn
+                        public struct Color {
+                            public static let `default` = UIColor.Semantic.LightTheme.Content.Base.accentOn
+                            public static let pressed = UIColor.Semantic.LightTheme.Content.Base.accentOn
+                            public static let disabled = UIColor.Semantic.LightTheme.Content.Base.disabled
+                            public static let loading = UIColor.Semantic.LightTheme.Content.Base.accentOn
+                        }
                     }
                 }
             }
@@ -315,30 +438,37 @@ public extension UIColor {
             public struct Accent {
                 public struct Gosuslugi {
                     public struct Background {
-                        public static let `default` = UIColor.Semantic.LightTheme.Background.Info.light
-                        public static let pressed = UIColor.Semantic.LightTheme.Background.Info.lightPressed
+                        public struct Color {
+                            public static let `default` = UIColor.Semantic.LightTheme.Background.Info.light
+                            public static let pressed = UIColor.Semantic.LightTheme.Background.Info.lightPressed
+                        }
                     }
-                    
                     public struct Label {
-                        public static let `default` = UIColor.Semantic.LightTheme.Content.Info.lightOn
-                        public static let pressed = UIColor.Semantic.LightTheme.Content.Info.lightOn
+                        public struct Color {
+                            public static let `default` = UIColor.Semantic.LightTheme.Content.Info.lightOn
+                            public static let pressed = UIColor.Semantic.LightTheme.Content.Info.lightOn
+                        }
                     }
                 }
                 
                 public struct Abb {
                     public struct Background {
-                        public static let `default` = UIColor.Semantic.LightTheme.Background.Accent.default
-                        public static let pressed = UIColor.Semantic.LightTheme.Background.Accent.pressed
+                        public struct Color {
+                            public static let `default` = UIColor.Semantic.LightTheme.Background.Accent.default
+                            public static let pressed = UIColor.Semantic.LightTheme.Background.Accent.pressed
+                        }
                     }
-                    
                     public struct Label {
-                        public static let `default` = UIColor.Semantic.LightTheme.Content.Base.accentOn
-                        public static let pressed = UIColor.Semantic.LightTheme.Content.Base.accentOn
+                        public struct Color {
+                            public static let `default` = UIColor.Semantic.LightTheme.Content.Base.accentOn
+                            public static let pressed = UIColor.Semantic.LightTheme.Content.Base.accentOn
+                        }
                     }
-                    
                     public struct Logo {
-                        public static let `default` = UIColor.Semantic.LightTheme.Content.Base.accentOn
-                        public static let pressed = UIColor.Semantic.LightTheme.Content.Base.accentOn
+                        public struct Color {
+                            public static let `default` = UIColor.Semantic.LightTheme.Content.Base.accentOn
+                            public static let pressed = UIColor.Semantic.LightTheme.Content.Base.accentOn
+                        }
                     }
                 }
             }
@@ -346,30 +476,37 @@ public extension UIColor {
             public struct Light {
                 public struct Gosuslugi {
                     public struct Background {
-                        public static let `default` = UIColor.Semantic.LightTheme.Background.Base.accentOn
-                        public static let pressed = UIColor.Semantic.LightTheme.Background.Base.mainPressed
+                        public struct Color {
+                            public static let `default` = UIColor.Semantic.LightTheme.Background.Base.accentOn
+                            public static let pressed = UIColor.Semantic.LightTheme.Background.Base.mainPressed
+                        }
                     }
-                    
                     public struct Label {
-                        public static let `default` = UIColor.Semantic.LightTheme.Static.black
-                        public static let pressed = UIColor.Semantic.LightTheme.Content.Base.primary
+                        public struct Color {
+                            public static let `default` = UIColor.Semantic.LightTheme.Static.black
+                            public static let pressed = UIColor.Semantic.LightTheme.Content.Base.primary
+                        }
                     }
                 }
                 
                 public struct Abb {
                     public struct Background {
-                        public static let `default` = UIColor.Semantic.LightTheme.Background.Base.accentOn
-                        public static let pressed = UIColor.Semantic.LightTheme.Background.Base.mainPressed
+                        public struct Color {
+                            public static let `default` = UIColor.Semantic.LightTheme.Background.Base.accentOn
+                            public static let pressed = UIColor.Semantic.LightTheme.Background.Base.mainPressed
+                        }
                     }
-                    
                     public struct Label {
-                        public static let `default` = UIColor.Semantic.LightTheme.Static.black
-                        public static let pressed = UIColor.Semantic.LightTheme.Content.Base.primary
+                        public struct Color {
+                            public static let `default` = UIColor.Semantic.LightTheme.Static.black
+                            public static let pressed = UIColor.Semantic.LightTheme.Content.Base.primary
+                        }
                     }
-                    
                     public struct Logo {
-                        public static let `default` = UIColor.Semantic.LightTheme.Content.Accent.default
-                        public static let pressed = UIColor.Semantic.LightTheme.Content.Accent.default
+                        public struct Color {
+                            public static let `default` = UIColor.Semantic.LightTheme.Content.Accent.default
+                            public static let pressed = UIColor.Semantic.LightTheme.Content.Accent.default
+                        }
                     }
                 }
             }
@@ -377,10 +514,14 @@ public extension UIColor {
         
         public struct ButtonPay {
             public struct Background {
-                public static let color = UIColor.Semantic.LightTheme.Static.blackSoft
+                public struct Color {
+                    public static let color = UIColor.Semantic.LightTheme.Static.blackSoft
+                }
             }
             public struct Label {
-                public static let color = UIColor.Semantic.LightTheme.Static.white
+                public struct Color {
+                    public static let color = UIColor.Semantic.LightTheme.Static.white
+                }
             }
         }
         
@@ -400,7 +541,11 @@ public extension UIColor {
                             public static let `default` = UIColor.Semantic.LightTheme.Content.Base.accentOn
                             public static let pressed = UIColor.Semantic.LightTheme.Content.Base.accentOn
                             public static let disabled = UIColor.Semantic.LightTheme.Content.Base.disabled
-                            public static let loading = UIColor.Semantic.LightTheme.Content.Base.accentOn
+                        }
+                    }
+                    public struct Loader {
+                        public struct Color {
+                            public static let color = UIColor.Semantic.LightTheme.Content.Base.accentOn
                         }
                     }
                 }
@@ -418,7 +563,11 @@ public extension UIColor {
                             public static let `default` = UIColor.Semantic.LightTheme.Content.Base.primary
                             public static let pressed = UIColor.Semantic.LightTheme.Content.Base.primary
                             public static let disabled = UIColor.Semantic.LightTheme.Content.Base.disabled
-                            public static let loading = UIColor.Semantic.LightTheme.Content.Base.primary
+                        }
+                    }
+                    public struct Loader {
+                        public struct Color {
+                            public static let color = UIColor.Semantic.LightTheme.Content.Base.primary
                         }
                     }
                 }
@@ -438,7 +587,11 @@ public extension UIColor {
                             public static let `default` = UIColor.Semantic.LightTheme.Static.black
                             public static let pressed = UIColor.Semantic.LightTheme.Content.Base.primary
                             public static let disabled = UIColor.Semantic.LightTheme.Content.Base.disabled
-                            public static let loading = UIColor.Semantic.LightTheme.Static.black
+                        }
+                    }
+                    public struct Loader {
+                        public struct Color {
+                            public static let color = UIColor.Semantic.LightTheme.Static.black
                         }
                     }
                 }
@@ -566,19 +719,30 @@ public extension UIColor {
         public struct Loader {
             public struct Accent {
                 public struct Background {
-                    public static let color = UIColor.Semantic.LightTheme.Content.Accent.default
+                    public struct Color {
+                        public static let color = UIColor.Semantic.LightTheme.Content.Accent.default
+                    }
                 }
             }
-            
             public struct Main {
                 public struct Background {
-                    public static let color = UIColor.Semantic.LightTheme.Content.Base.accentOn
+                    public struct Color {
+                        public static let color = UIColor.Semantic.LightTheme.Content.Base.accentOn
+                    }
                 }
             }
-            
             public struct Disabled {
                 public struct Background {
-                    public static let color = UIColor.Semantic.LightTheme.Content.Base.disabled
+                    public struct Color {
+                        public static let color = UIColor.Semantic.LightTheme.Content.Base.disabled
+                    }
+                }
+            }
+            public struct Primary {
+                public struct Background {
+                    public struct Color {
+                        public static let color = UIColor.Semantic.LightTheme.Static.black
+                    }
                 }
             }
         }
