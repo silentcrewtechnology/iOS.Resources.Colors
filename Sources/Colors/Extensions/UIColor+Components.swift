@@ -1304,6 +1304,11 @@ public extension UIColor {
                     public static let readiness = UIColor.Semantic.LightTheme.Content.Accent.default
                 }
             }
+            public struct Icon {
+                public struct Color {
+                    public static let value = UIColor.Semantic.LightTheme.Content.Base.secondary
+                }
+            }
         }
         
         public struct SegmentItem {
@@ -1531,6 +1536,30 @@ public extension UIColor {
                 public struct Background {
                     public struct Color {
                         public static let `default` = UIColor.Semantic.LightTheme.Background.Base.main
+                    }
+                }
+                public struct Label {
+                    public struct Color {
+                        public static let `default` = UIColor.Semantic.LightTheme.Content.Base.primary
+                    }
+                }
+            }
+            public struct Transparency {
+                public struct Background {
+                    public struct Color {
+                        public static let `default` = UIColor.Semantic.LightTheme.Background.None.value
+                    }
+                }
+                public struct Label {
+                    public struct Color {
+                        public static let `default` = UIColor.Semantic.LightTheme.Content.Base.primary
+                    }
+                }
+            }
+            public struct Square {
+                public struct Background {
+                    public struct Color {
+                        public static let `default` = UIColor.Semantic.LightTheme.Background.None.value
                     }
                 }
                 public struct Label {
