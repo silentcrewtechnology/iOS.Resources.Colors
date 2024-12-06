@@ -12,18 +12,25 @@ public extension UIColor {
         var int: UInt64 = 0
         Scanner(string: hexString).scanHexInt64(&int)
         
-        let a, r, g, b: UInt64
+        let r, g, b: UInt64
+        var a: UInt64? = nil
         switch hexString.count {
         case 3: // RGB (12-bit)
-            (a, r, g, b) = (1, (int >> 8) * 17, (int >> 4 & 0xF) * 17, (int & 0xF) * 17)
+            (r, g, b) = ((int >> 8) * 17, (int >> 4 & 0xF) * 17, (int & 0xF) * 17)
         case 6: // RGB (24-bit)
-            (a, r, g, b) = (1, int >> 16, int >> 8 & 0xFF, int & 0xFF)
+            (r, g, b) = (int >> 16, int >> 8 & 0xFF, int & 0xFF)
         case 8: // ARGB (32-bit)
-            (a, r, g, b) = ((int >> 24)/255, int >> 16 & 0xFF, int >> 8 & 0xFF, int & 0xFF)
+            a = (int >> 24)/255
+            (r, g, b) = (int >> 16 & 0xFF, int >> 8 & 0xFF, int & 0xFF)
         default:
             return UIColor.clear
         }
+    
+        var resultAlpha = alpha
+        if let a {
+            resultAlpha = CGFloat(a)
+        }
         
-        return getRGBA(r: CGFloat(r), g: CGFloat(g), b: CGFloat(b), a: CGFloat(a))
+        return getRGBA(r: CGFloat(r), g: CGFloat(g), b: CGFloat(b), a: resultAlpha)
     }
 }
