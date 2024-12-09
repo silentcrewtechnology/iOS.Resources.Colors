@@ -1575,14 +1575,12 @@ public extension UIColor {
                 public struct Background {
                     public struct Color {
                         public static let `default` = UIColor.Semantic.LightTheme.Background.Base.tertiary
-                        public static let pressed = UIColor.Semantic.LightTheme.Background.Base.tertiaryPressed
                         public static let disabled = UIColor.Semantic.LightTheme.Background.Base.disabled
                     }
                 }
                 public struct Switch {
                     public struct Color {
                         public static let `default` = UIColor.Semantic.LightTheme.Static.white
-                        public static let pressed = UIColor.Semantic.LightTheme.Static.white
                         public static let disabled = UIColor.Semantic.LightTheme.Static.white
                     }
                 }
@@ -1592,14 +1590,12 @@ public extension UIColor {
                 public struct Background {
                     public struct Color {
                         public static let `default` = UIColor.Semantic.LightTheme.Background.Accent.default
-                        public static let pressed = UIColor.Semantic.LightTheme.Background.Accent.pressed
                         public static let disabled = UIColor.Semantic.LightTheme.Background.Accent.activeDisabled
                     }
                 }
                 public struct Switch {
                     public struct Color {
                         public static let `default` = UIColor.Semantic.LightTheme.Background.Base.accentOn
-                        public static let pressed = UIColor.Semantic.LightTheme.Background.Base.accentOn
                         public static let disabled = UIColor.Semantic.LightTheme.Background.Base.accentOn
                     }
                 }
